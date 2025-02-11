@@ -9,6 +9,12 @@ authors = [
 requires-python = ">=3.13"
 dependencies = []
 
+[project.optional-dependencies]
+imutils = [
+    "numpy>=2.2.2",
+    "opencv-python>=4.11.0.86",
+]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

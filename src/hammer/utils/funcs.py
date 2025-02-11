@@ -18,3 +18,4 @@ def collage_arange(num: int, width: int, height: int) -> Tuple[int, int]:
     if num in {5, 6}:   return 3, 2   # 3x2 layout
     if num in {7, 8}:   return 4, 2   # 4x2 layout
     if num == 9:        return 3, 3   # 3x3 layout
+    raise ValueError("Number of items must be between 1 and 9.")
